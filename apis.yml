@@ -1,21 +1,54 @@
 aid: lenus
-name: Lenus
-description: 'Lenus is a company surfaced as a portfolio company of eqt-ventures and added to the API
-  Evangelist network as a stub for enrichment. Sector: fitness-tech. This profile is a lead awaiting the
-  enrichment pipeline.'
+name: Lenus eHealth
+description: 'Lenus eHealth is a Copenhagen-headquartered health and fitness technology company that
+  builds a coaching platform for online health and fitness coaches, positioning itself as a growth
+  partner rather than a consumer fitness app. Coaching partners run their businesses through the Lenus
+  web dashboard and branded consumer mobile apps: client onboarding and screening, training and
+  nutrition programming, habit and progress tracking, in-app messaging, content delivery, subscription
+  billing and business analytics. The company also operates Lenus Academy, a certified education
+  program for online coaches, and in the United States offers a GLP-1 weight management program
+  delivered with independent medical partner Beluga Health. Lenus operates from 20+ offices including
+  Copenhagen, Berlin, London, Amsterdam, Stockholm, Madrid, New York and Toronto, and is backed by EQT
+  Ventures. The platform is closed and invitation-based: as of July 2026 Lenus publishes no public API,
+  developer portal, SDKs or machine-readable API specifications, and access is available only to
+  coaching partners under a partnership agreement.'
 url: https://raw.githubusercontent.com/api-evangelist/lenus/refs/heads/main/apis.yml
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://cdn.prod.website-files.com/63a05a489d74db0082f34744/64e71526a7b788ebae3a7b90_open_graph_image.png
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
 - eqt-ventures
 x-tier: stub
-x-tier-reason: portfolio-lead
+x-tier-reason: no-public-api
+x-disambiguation: >-
+  Lenus eHealth (lenus.io / lenusehealth.com, Copenhagen, Denmark, fitness and health coaching) is a
+  distinct company from Lenus Health (lenushealth.com, Edinburgh, Scotland, NHS digital health
+  platform). Do not merge the two profiles.
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
 - Fitness Tech
+- Health
+- Health Coaching
+- Digital Health
+- Wellness
+- Fitness
+- Coaching Platform
+- SaaS
+- Denmark
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -25,3 +58,32 @@ maintainers:
 common:
 - type: Website
   url: https://lenusehealth.com/
+- type: About
+  url: https://lenusehealth.com/about
+- type: ProductOverview
+  url: https://lenusehealth.com/platform
+- type: Blog
+  url: https://lenusehealth.com/news
+- type: Support
+  url: https://lenusehealth.com/contact
+- type: Login
+  url: https://eu.lenus.io/dashboard/login
+- type: TermsOfService
+  url: https://www.lenusehealth.com/legal/lenus-terms-of-service-for-coaching-partners
+- type: PrivacyPolicy
+  url: https://www.lenusehealth.com/legal/privacy-policy
+- type: GitHubOrganization
+  url: https://github.com/lenus-ehealth
+- type: Careers
+  url: https://lenusehealth.com/careers
+- type: LinkedIn
+  url: https://www.linkedin.com/company/lenus-ehealth/
+- type: DomainSecurity
+  url: security/lenus-domain-security.yml
+- type: LLMsTxt
+  url: llms/lenus-llms.txt
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
