@@ -1,0 +1,47 @@
+generated: '2026-07-19'
+method: searched
+source: live probes of the Lenus eHealth public hosts
+summary: >-
+  No /.well-known/ discovery documents are published on any Lenus eHealth host.
+  Every probe returned 404. Recorded as a negative result so re-runs can detect
+  a change; no WellKnown or SecurityTxt pointer is wired into apis.yml because
+  nothing is actually published.
+hosts:
+- host: https://lenusehealth.com
+  documents:
+  - path: /.well-known/security.txt
+    status: 404
+  - path: /.well-known/openid-configuration
+    status: 404
+  - path: /.well-known/oauth-authorization-server
+    status: 404
+  - path: /.well-known/api-catalog
+    status: 404
+  - path: /.well-known/ai-plugin.json
+    status: 404
+- host: https://lenus.io
+  documents:
+  - path: /.well-known/security.txt
+    status: 404
+  - path: /.well-known/openid-configuration
+    status: 404
+  - path: /.well-known/oauth-authorization-server
+    status: 404
+  - path: /.well-known/api-catalog
+    status: 404
+  - path: /.well-known/ai-plugin.json
+    status: 404
+- host: https://api.lenus.io
+  note: >-
+    Resolves and returns HTTP 302 redirecting to https://www.lenusehealth.com —
+    it is not a public API surface.
+  documents:
+  - path: /.well-known/security.txt
+    status: 404
+  - path: /.well-known/openid-configuration
+    status: 404
+llms_txt:
+- url: https://lenusehealth.com/llms.txt
+  status: 404
+- url: https://lenus.io/llms.txt
+  status: 404
