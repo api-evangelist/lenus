@@ -35,7 +35,7 @@ x-disambiguation: >-
   Lenus eHealth (lenus.io / lenusehealth.com, Copenhagen, Denmark, fitness and health coaching) is a
   distinct company from Lenus Health (lenushealth.com, Edinburgh, Scotland, NHS digital health
   platform). Do not merge the two profiles.
-specificationVersion: '0.20'
+specificationVersion: '0.23'
 created: '2026-07-17'
 modified: '2026-07-19'
 tags:
