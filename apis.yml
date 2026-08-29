@@ -13,6 +13,17 @@ description: 'Lenus eHealth is a Copenhagen-headquartered health and fitness tec
   developer portal, SDKs or machine-readable API specifications, and access is available only to
   coaching partners under a partnership agreement.'
 url: https://raw.githubusercontent.com/api-evangelist/lenus/refs/heads/main/apis.yml
+deliveryModel:
+  model: saas
+  open_source: false
+  commercial: true
+  callable_host: false
+  label: Hosted service · you call their endpoint
+  confidence: medium
+  source:
+  - pricing
+  generated: '2026-08-28'
+  method: derived
 accessModel:
   pricing: unknown
   onboarding: unknown
